@@ -1,6 +1,7 @@
 <window id="1">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
+	<views>50,550,57,53</views>
 	<controls>
 
 	<control type="multiimage">
@@ -42,10 +43,9 @@
 				<include>Animation_MediaMenuSlide</include>
 				<include>Objects_MediaMenuGroup</include>
 
-				<control type="button" id="900">
+				<control type="button" id="2">
 					<label>$LOCALIZE[31050] $INFO[Container.ViewMode]</label>
 					<include>Objects_MediaMenuButton</include>
-					<onclick>SetFocus(69)</onclick>
 				</control>
 
 				<include>Objects_FlattenFlowButton</include>
@@ -77,13 +77,16 @@
 			</control>
 		</control>
 
-		<include>Viewtype_Showcase</include>
 		<include>Viewtype_List</include>
+		<include>Viewtype_Showcase</include>
 		
 	</control>
 
 	<include>Furniture_DarkGradient</include>	
+<<<<<<< HEAD:720p/MyPrograms.xml
 	<include>ViewChange</include>
+=======
+>>>>>>> 42f28d6eb57239fbbd3d7766d0ef1a437a697b7e:720p/MyPrograms.xml
 	<!--<include>Background_ContextBlack</include>-->
 	<include condition="Skin.HasSetting(debug)">Furniture_Debug</include>
 	
